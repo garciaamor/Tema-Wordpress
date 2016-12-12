@@ -5,5 +5,4 @@
 	</aside><!-- .sidebar .widget-area -->
 <?php endif; ?>
 
-<h1>SIDEBAR</h1>
 </<div>

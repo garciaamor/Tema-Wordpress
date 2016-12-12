@@ -1,10 +1,7 @@
 <?php get_header(); ?>
 
-    <h1>MENU</h1>
-    <?php wp_nav_menu( array( 'menu' => 'menu2' ) ); ?>
-   
-    <section id="main"> 
-
+<div id="divPrincipal">   
+<div id="divLoop">
 <?php 
 
     if ( have_posts() ):
@@ -22,6 +19,11 @@
         endif;
     ?>
 </section>
-
+</div>
+<div id="divSide">
 <?php get_sidebar(); ?>
+</div>
+</div>
+<?php get_footer(); ?>
+<?php get_footer(); ?>
 <?php get_footer(); ?>
