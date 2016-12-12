@@ -1,16 +1,7 @@
 
-#miSidebar {
-        text-align: left;
-		float: left;
-		margin-left: 85%;
-		
-		width: 25%;
-		
-		
-}
 
 #menuHeader {
-	margin-left: 50%;
+	margin-left: 40%;
 	
 }
 
@@ -18,18 +9,27 @@ html{
 	background-color: #A9E2F3
 }
 
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 #divLoop{
     float:left;
-    width:70%;
+    width:75%;
 }
-#divSidebar{
+#divSide{
     float:left;
     width: 25%;
+    
 }
 
-
+#divFoot{
+    
+    width: 100%;
+    
+}
 
 
 

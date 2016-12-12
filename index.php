@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="divPrincipal">   
+<div id="divPrincipal" class="clearfix">   
 <div id="divLoop">
 <?php 
 
@@ -18,12 +18,14 @@
         endwhile;
         endif;
     ?>
-</section>
+
 </div>
+
 <div id="divSide">
 <?php get_sidebar(); ?>
 </div>
+</section>
 </div>
+<div id="divFoot">
 <?php get_footer(); ?>
-<?php get_footer(); ?>
-<?php get_footer(); ?>
+</div>
